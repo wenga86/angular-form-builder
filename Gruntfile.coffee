@@ -15,10 +15,10 @@ module.exports = (grunt) ->
         coffee:
             source:
                 files:
-                    'dist/angular-form-builder.js': ['src/*.coffee']
+                    '../../../app/assets/javascripts/angular-form-builder/angular-form-builder.js': ['src/*.coffee']
             components:
                 files:
-                    'dist/angular-form-builder-components.js': ['components/*.coffee']
+                    '../../../../app/assets/javascripts/angular-form-builder/angular-form-builder-components.js': ['components/*.coffee']
             demo:
                 files:
                     'example/demo.js': 'example/demo.coffee'
@@ -26,8 +26,8 @@ module.exports = (grunt) ->
         uglify:
             build:
                 files:
-                    'dist/angular-form-builder.min.js': 'dist/angular-form-builder.js'
-                    'dist/angular-form-builder-components.min.js': 'dist/angular-form-builder-components.js'
+                    '../../../../app/assets/javascripts/angular-form-builder/angular-form-builder.min.js': 'dist/angular-form-builder.js'
+                    '../../../../app/assets/javascripts/angular-form-builder/angular-form-builder-components.min.js': 'dist/angular-form-builder-components.js'
 
         watch:
             compass:

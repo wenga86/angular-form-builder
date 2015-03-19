@@ -1,1 +1,110 @@
-.fb-component{padding:10px;cursor:move}.fb-component input{cursor:move}.fb-component label{cursor:move}.fb-component select{cursor:move}.fb-component textarea{cursor:move}.fb-form-object-editable{padding:10px}.fb-form-object-editable.fb-draggable{cursor:move}.fb-form-object-editable.fb-draggable input{cursor:move}.fb-form-object-editable.fb-draggable label{cursor:pointer}.fb-form-object-editable.fb-draggable select{cursor:move}.fb-form-object-editable.fb-draggable textarea{cursor:move}.fb-form-object-editable.empty{cursor:default;margin:6px;height:80px;border:dashed 1px #aaa;background-color:#eee}.fb-draggable.dragging{background-color:#ffffff;position:absolute;z-index:800;-webkit-box-shadow:#666 0 0 20px;-moz-box-shadow:#666 0 0 20px;box-shadow:#666 0 0 20px}.fb-required:after{color:#b94a48;content:' *'}.fb-builder{min-height:250px}.popover .control-label{text-align:left}.popover form{width:240px}
+/*
+Error: Did not recognize your adapter specification (cannot load such file -- multi_json/adapters/json_gem). for `browsers'
+        on line 7 of /home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-core-1.0.3/stylesheets/compass/_support.scss
+        from line 3 of /home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-core-1.0.3/stylesheets/compass/css3/_border-radius.scss
+        from line 1 of /home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-core-1.0.3/stylesheets/compass/_css3.scss
+        from line 2 of /home/mglaz/Projects/rails/redbox-planogram/vendor/assets/javascripts/angular-form-builder/src/angular-form-builder.scss
+
+2: @import "compass/css3";
+3: 
+4: 
+5: .fb-component {
+6:     padding: 10px;
+7:     cursor: move;
+8:     input { cursor: move; }
+9:     label { cursor: move; }
+10:     select { cursor: move; }
+11:     textarea { cursor: move; }
+12: }
+
+Backtrace:
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-core-1.0.3/stylesheets/compass/_support.scss:7
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-core-1.0.3/stylesheets/compass/css3/_border-radius.scss:3
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-core-1.0.3/stylesheets/compass/_css3.scss:1
+/home/mglaz/Projects/rails/redbox-planogram/vendor/assets/javascripts/angular-form-builder/src/angular-form-builder.scss:2
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/script/tree/funcall.rb:303:in `reformat_argument_error'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/script/tree/funcall.rb:146:in `rescue in _perform'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/script/tree/funcall.rb:123:in `_perform'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:468:in `visit_variable'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `map'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:88:in `block in with_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:88:in `with_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `map'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:88:in `block in with_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:88:in `with_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `map'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:88:in `block in with_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:88:in `with_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/tree/root_node.rb:20:in `render'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/engine.rb:268:in `render'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-1.0.3/bin/compass:44:in `call'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/bin/compass:23:in `load'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/bin/compass:23:in `<main>'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/bin/ruby_executable_hooks:15:in `eval'
+/home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Did not recognize your adapter specification (cannot load such file -- multi_json/adapters/json_gem). for `browsers'\A         on line 7 of /home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-core-1.0.3/stylesheets/compass/_support.scss\A         from line 3 of /home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-core-1.0.3/stylesheets/compass/css3/_border-radius.scss\A         from line 1 of /home/mglaz/.rvm/gems/ruby-2.1.5@redbox-planogram/gems/compass-core-1.0.3/stylesheets/compass/_css3.scss\A         from line 2 of /home/mglaz/Projects/rails/redbox-planogram/vendor/assets/javascripts/angular-form-builder/src/angular-form-builder.scss\A \A 2: @import \"compass/css3\";\A 3: \A 4: \A 5: .fb-component {\A 6:     padding: 10px;\A 7:     cursor: move;\A 8:     input { cursor: move; }\A 9:     label { cursor: move; }\A 10:     select { cursor: move; }\A 11:     textarea { cursor: move; }\A 12: }"; }
