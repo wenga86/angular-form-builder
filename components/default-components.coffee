@@ -28,11 +28,16 @@ angular.module 'custom.components', ['builder']
             """
         template:
             """
+            <div class="well">
             <div class="form-element">
+              <a class="pull-right" remove-form-component index="index" form-name="formName">
+                <i class="fa fa-times-circle text-danger"></i>
+              </a>
               <label for="{{formName+index}}" class="control-label" ng-class="{required: required}">{{label}}</label>
-              <input type="text" ng-model="inputText" name="asset[metadata][{{id}}]" id="{{id}}" class="form-control" placeholder="{{placeholder}}"/>
+              <input type="text" ng-model="inputText" name="asset[metadata][{{id}}]" id="{{id}}" class="form-control" ng-model-options="{ debounce : { 'default' : 500, blur : 0 } }" placeholder="{{placeholder}}"/>
               <p class='help-block'>{{description}}</p>
               <p class='validation-block'>{{validationString}}</p>
+            </div>
             </div>
             """
         popoverTemplate:
@@ -100,10 +105,15 @@ angular.module 'custom.components', ['builder']
             """
         template:
             """
+            <div class="well">
             <div class="form-element">
+              <a class="pull-right" remove-form-component index="index" form-name="formName">
+                <i class="fa fa-times-circle text-danger"></i>
+              </a>
               <label for="{{formName+index}}" class="control-label" ng-class="{required: required}">{{label}}</label>
               <textarea type="text" ng-model="inputText" name="asset[metadata][{{id}}]" id="{{id}}" class="form-control" rows='6' placeholder="{{placeholder}}"/>
               <p class='help-block'>{{description}}</p>
+            </div>
             </div>
             """
         popoverTemplate:
@@ -159,7 +169,11 @@ angular.module 'custom.components', ['builder']
             """
         template:
             """
+            <div class="well">
             <div class="form-element">
+              <a class="pull-right" remove-form-component index="index" form-name="formName">
+                <i class="fa fa-times-circle text-danger"></i>
+              </a>
               <label for="{{formName+index}}" class="control-label" ng-class="{required: required}">{{label}}</label>
               <input type='hidden' ng-model="inputText" name="asset[metadata][{{id}}]" id="{{id}}" value="{{inputText}}"/>
               <div class='checkbox checkbox-group' ng-repeat="item in options track by $index">
@@ -169,6 +183,7 @@ angular.module 'custom.components', ['builder']
                 </label>
               </div>
               <p class='help-block'>{{description}}</p>
+            </div>
             </div>
             """
         popoverTemplate:
@@ -224,7 +239,11 @@ angular.module 'custom.components', ['builder']
             """
         template:
             """
+            <div class="well">
             <div class="form-element">
+              <a class="pull-right" remove-form-component index="index" form-name="formName">
+                <i class="fa fa-times-circle text-danger"></i>
+              </a>
               <label for="{{formName+index}}" class="control-label" ng-class="{required: required}">{{label}}</label>
                 <div class='radio' ng-repeat="item in options track by $index">
                   <label><input ng-model="$parent.inputText" name="asset[metadata][{{id}}]" id="{{id}}" value='{{item}}' type='radio'/>
@@ -232,6 +251,7 @@ angular.module 'custom.components', ['builder']
                   </label>
                 </div>
                 <p class='help-block'>{{description}}</p>
+            </div>
             </div>
             """
         popoverTemplate:
@@ -281,11 +301,16 @@ angular.module 'custom.components', ['builder']
             """
         template:
             """
+            <div class="well">
             <div class="form-element">
+              <a class="pull-right" remove-form-component index="index" form-name="formName">
+                <i class="fa fa-times-circle text-danger"></i>
+              </a>
               <label for="{{formName+index}}" class="control-label" ng-class="{required: required}">{{label}}</label>
               <select ng-options="value for value in options track by value" id="{{id}}"
                 ng-model="inputText" name="asset[metadata][{{id}}]" ng-init="inputText = options[0]"/>
               <p class='help-block'>{{description}}</p>
+            </div>
             </div>
             """
         popoverTemplate:
@@ -334,11 +359,16 @@ angular.module 'custom.components', ['builder']
             """
         template:
             """
+            <div class="well">
             <div class="form-element">
+              <a class="pull-right" remove-form-component index="index" form-name="formName">
+                <i class="fa fa-times-circle text-danger"></i>
+              </a>
               <label for="{{formName+index}}" class="control-label" ng-class="{required: required}">{{label}}</label>
               <input type="text" ng-model="inputText" name="asset[metadata][{{id}}]" id="{{id}}" class="form-control" placeholder="{{placeholder}}"/>
               <p class='help-block'>{{description}}</p>
               <p class='validation-block'>{{validationString}}</p>
+            </div>
             </div>
             """
         popoverTemplate:
@@ -395,11 +425,16 @@ angular.module 'custom.components', ['builder']
             """
         template:
             """
+            <div class="well">
             <div class="form-element">
+              <a class="pull-right" remove-form-component index="index" form-name="formName">
+                <i class="fa fa-times-circle text-danger"></i>
+              </a>
               <label for="{{formName+index}}" class="control-label" ng-class="{required: required}">{{label}}</label>
               <input type="text" ng-model="inputText" name="asset[metadata][{{id}}]" id="{{id}}" class="form-control" placeholder="{{placeholder}}"/>
               <p class='help-block'>{{description}}</p>
               <p class='validation-block'>{{validationString}}</p>
+            </div>
             </div>
             """
         popoverTemplate:
@@ -452,11 +487,16 @@ angular.module 'custom.components', ['builder']
             """
         template:
             """
+            <div class="well">
             <div class="form-element">
+              <a class="pull-right" remove-form-component index="index" form-name="formName">
+                <i class="fa fa-times-circle text-danger"></i>
+              </a>
               <label for="{{formName+index}}" class="control-label" ng-class="{required: required}">{{label}}</label>
               <input type="text" ng-model="inputText" name="asset[metadata][{{id}}]" id="{{id}}" class="form-control" placeholder="{{placeholder}}"/>
               <p class='help-block'>{{description}}</p>
               <p class='validation-block'>{{validationString}}</p>
+            </div>
             </div>
             """
         popoverTemplate:
@@ -509,11 +549,16 @@ angular.module 'custom.components', ['builder']
             """
         template:
             """
+            <div class="well">
             <div class="form-element">
+              <a class="pull-right" remove-form-component index="index" form-name="formName">
+                <i class="fa fa-times-circle text-danger"></i>
+              </a>
               <label for="{{formName+index}}" class="control-label" ng-class="{required: required}">{{label}}</label>
               <input type="text" ng-model="inputText" name="asset[metadata][{{id}}]" id="{{id}}" class="form-control" placeholder="{{placeholder}}"/>
               <p class='help-block'>{{description}}</p>
               <p class='validation-block'>{{validationString}}</p>
+            </div>
             </div>
             """
         popoverTemplate:

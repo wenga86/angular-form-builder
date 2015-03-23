@@ -15,7 +15,7 @@ module.exports = (grunt) ->
         coffee:
             source:
                 files:
-                    '../../../app/assets/javascripts/angular-form-builder/angular-form-builder.js': ['src/*.coffee']
+                    '../../../../app/assets/javascripts/angular-form-builder/angular-form-builder.js': ['src/*.coffee']
             components:
                 files:
                     '../../../../app/assets/javascripts/angular-form-builder/angular-form-builder-components.js': ['components/*.coffee']
