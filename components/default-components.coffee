@@ -239,20 +239,15 @@ angular.module 'custom.components', ['builder']
             """
         template:
             """
-            <div class="well">
-            <div class="form-element">
-              <a class="pull-right" remove-form-component index="index" form-name="formName">
-                <i class="fa fa-times-circle text-danger"></i>
-              </a>
+           <div class="form-element">
               <label for="{{formName+index}}" class="control-label" ng-class="{required: required}">{{label}}</label>
                 <div class='radio' ng-repeat="item in options track by $index">
                   <label><input ng-model="$parent.inputText" name="asset[metadata][{{id}}]" id="{{id}}" value='{{item}}' type='radio'/>
                           {{item}}
                   </label>
-                </div>
+                 </div>
                 <p class='help-block'>{{description}}</p>
-            </div>
-            </div>
+             </div>
             """
         popoverTemplate:
             """
